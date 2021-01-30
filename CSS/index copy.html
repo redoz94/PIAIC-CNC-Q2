@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <style>
+            .carda {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 300px;
+  height: 630px;
+  margin-top: 100px;
+  margin-left: 250px;
+  position: absolute;
+}
+
+.cardo {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 25px 20px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 300px;
+  height: 600px;
+  margin-top: 50px;
+  margin-left: 550px;
+  position: absolute;
+  outline: 2px solid blue;
+}
+
+.cardy {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 300px;
+  height: 628px;
+  margin-top: 100px;
+  margin-left: 850px;
+  position: absolute;
+}
+
+
+
+
+.containerze {
+  padding: 2px 16px;
+  height: 100px
+}
+
+.hehim{
+    color: yellowgreen;
+    font-size: 50px;
+    margin-top: -20px
+}
+
+.hez{
+    color: yellowgreen;
+    font-size: 50px;
+    margin-top: -20px
+}
+
+.hez{
+    color: yellowgreen;
+    font-size: 50px
+}
+.prima{
+    color: darkgray;
+}
+
+.sixer{
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+.uni{
+    color: black;
+    margin-top: 10px;
+
+}
+
+.des{
+    margin-top: 10px;
+    color: darkgray
+
+}
+
+.de{
+    margin-top: 10px;
+    color: darkgray
+
+}
+
+.tu{
+    margin-top: 10px;
+    color: white;
+
+}
+
+.ten{
+    margin-top: 30px;
+    color: darkgray
+
+}
+.free{
+    margin-top: 10px;
+    color: darkgray
+
+}
+
+.fre{
+    margin-top: 10px;
+    color: darkgray
+
+}
+
+.cmc{
+    margin-top: 10px;
+    color: darkgray
+
+}
+
+.sat{
+    margin-top: 10px;
+    color: darkgray
+
+}
+
+.flu{
+    margin-top: 5px;
+    color: black
+
+}
+
+.affordo{
+    background-color:whitesmoke;
+    height: 900px;
+    margin-top: 300px
+}
+
+.greya{
+    color: lightgray;
+}
+
+.sutta{
+  background-color: dodgerblue;
+  color: white;
+  margin-top: 25px;
+  position: absolute;
+  margin-left: 110px
+}
+
+.butta{
+  background-color: dodgerblue;
+  color: white;
+  margin-top: 20px;
+  position: absolute;
+  margin-left: 100px
+}
+
+.bua{
+  background-color: dodgerblue;
+  color: white;
+  margin-top: 27px;
+  position: absolute;
+  margin-left: 100px
+}
+
+.two{
+  margin-top: -25px
+}
+         #wrap{
+            width: 100%;
+            border: 1px solid transparent;
+            height: 400px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .outer-circle {
+            /* border: 1px solid black; */
+            height: 170px;
+            width: 170px;
+            background-color: blue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            transform: translate(50%, 50%);
+            background-image: linear-gradient(-45deg, #fff 50%, transparent 50%), linear-gradient(90deg, rgb(221, 182, 9) 50%, #fff 50%);
+
+        }
+
+        #outer-circle{
+            border-bottom-color: gold;
+            border-right-color: gold;
+        }
+
+        .inner-circle {
+
+            height: 150px;
+            width: 150px;
+            border: 2px solid rgb(221, 182, 9);
+            /* background-color: violet; */
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .sub-circle {
+
+            height: 120px;
+            width: 120px;
+            background-color: white;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .long{
+            margin-top: -350px
+        }
+
+        .ordera{
+            color: white;
+            margin-top: 25px;
+            background-color: dodgerblue;
+
+        }
+
+        .order{
+            color: white;
+            background-color: dodgerblue;
+            position: absolute;
+            margin-left: -40px
+        }
+
+        .orders{
+            color: white;
+            background-color: dodgerblue;
+
+        }
+
+        .car{
+            width: 300px;
+            margin-left: -20px
+
+        }
+    </style>
+</head>
+<body>
+    <header class="header-nav">
+        <button  class="button">Call me back</button>
+        <img src="./phone.png" alt="phone" height="30px" class="phone">
+        <img src="./phone2.png" alt="phone" height="30px" class="phoney">
+        <span class="number">+92 (304) 386-6719</span>
+        <span class="numbery">+92 (317)011-3001</span>
+        <div class="icons-holder">
+            <a href="#" class="icon-link fb-icon" >
+                f
+            </a>
+        </div>
+        <div class="icons-holder">
+            
+            <a href="#" class="icon-link" >
+                tw
+            </a>
+        </div>
+
+        <div class="icons-holder">
+            <center>
+            <a href="#" class="icon-linko" >
+                g+
+            </a>
+        </center>
+        </div>
+
+        <div class="icons-holder">
+            <center>
+            <a href="#" class="icon-linka" >
+                in
+            </a>
+        </center>
+        </div>
+        <div class="icons-holder">
+            <a href="#"  class="none">
+                <p class="tu">
+                    Tube
+                </p>
+                
+            </a>
+        </div>
+    </header>
+    <div class="divvy">
+    <ul>
+
+        <li class="why" style="color:black; margin-top: 6px; margin-left: -193px;"><a href="./services.html" class="yeah">WHY US</a></li>
+        <li class="holla">ABOUT</a></li>
+        <li class="holla"><a href="./services.html" class="link">SERVICES</a></li>
+        <li class="holla"><a href="./portfolio.html" class="link">PORTFOLIO</a></li>
+        <li class="holla"><a href="./process.html" class="link">PROCESS</a></li>
+        <img src="./pana.png" alt="logo" class="pana" height="90px">
+        <li class="holla"><a href="./reviews.html" class="link">REVIEWS</a></li>
+        <li class="holla"><a href="./skills.html" class="link">OUR SKILLS</a></li>
+        <li class="colla"><a href="./contact.html" class="link">CONTACT US</a></li>
+
+    </ul>
+   </div>
+</div>
+    <div class="container">
+        <br>
+        <div class="row py-3">
+            <div class="col">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="move" src="./main-body-with.png" height="500px" class="d-block w-100" alt="">
+                            <div class="carousel-caption">
+                                <h1 style="margin-top: -100px; margin-left: 660px" >We are the best</h1>
+                                <p style="margin-left: -200px; margin-top: -50px">Lorem Ipsum has, lorem Ipsum, lorem Ipsum,lorem Ipsum, lorem Ipsum, lorem Ipsum, Lorem<br> Ipsum has, lorem Ipsum, lorem Ipsum,lorem Ipsum, lorem Ipsum, lorem Ipsum</p>
+                                <a class="btn btn-warning custom" href="#" role="button">Read More</a> 
+                            </div>
+                            <hr>
+
+                </div>
+                        <div class="carousel-item">
+                            <img class="move" src="./main-body-with.png" height="500px" class="d-block w-100" alt="">
+                            <div class="carousel-caption">
+                                <h1 style="margin-top: -100px; margin-left: 660px">We are experts</h1>
+                                <p style="margin-left: -200px; margin-top: -50px">Lorem Ipsum has, lorem Ipsum, lorem Ipsum,lorem Ipsum, lorem Ipsum, lorem Ipsum, Lorem<br> Ipsum has, lorem Ipsum, lorem Ipsum,lorem Ipsum, lorem Ipsum, lorem Ipsum</p>
+                                <a class="btn btn-warning custom" href="#" role="button">Read More</a>
+
+                            </div>  
+                        </div>
+                        <div class="carousel-item">
+                            <img class="move" src="./main-body-with.png" height="500px" class="d-block w-100" alt="">
+                            <div class="carousel-caption">
+                                <h1 style="margin-top: -100px; margin-left: 650px">We like experts</h1>
+                                <p style="margin-left: -200px; margin-top: -50px">Lorem Ipsum has, lorem Ipsum, lorem<br> Ipsum,lorem Ipsum, lorem Ipsum, lorem Ipsum, Lorem Ipsum has,<br> lorem Ipsum, lorem Ipsum,lorem Ipsum, lorem Ipsum, lorem Ipsum</p>
+                                <a class="btn btn-warning custom" href="#" role="button">Read More</a>
+
+                            </div> 
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="advantages">
+    <center><h1>OUR <span style="color: #688e19">ADVANTAGES</span></h1>
+        <p class="grey">Lorem Ipsum has, lorem Ipsum, lorem Ipsum, lorem Ipsum, lorem Ipsum, Lorem Ipsum, Lorem Ipsum, lorem Ipsum<br>lorem Ipsum, lorem Ipsum, lorem Ipsum, lorem Ipsum, Lorem Ipsum, Lorem Ipsum</p>
+    </center>
+    <img src="./icons/adv-icon-1.png" width="200px" style="margin-left: 70px; margin-top: 50px" alt="lightbulb">
+    <img src="./icons/adv-icon-2.png" width="200px" style="margin-left: 70px; margin-top: 50px" alt="lightbulb">
+    <img src="./icons/adv-icon-3.png" width="200px" style="margin-left: 70px; margin-top: 50px" alt="lightbulb">
+    <img src="./icons/adv-icon-4.png" width="200px" style="margin-left: 70px; margin-top: 50px" alt="lightbulb">
+    <img src="./icons/adv-icon-5.png" width="200px" style="margin-left: 70px; margin-top: 50px" alt="lightbulb">
+    <h1 style="margin-left: 60px">Innovation</h1>
+    <p style="color: grey; margin-left: 40px">Lorem Ipsum, Lorem Ipsum, lorem ip<br style="margin-left: 50px"> dolor sit amet, consectet</p>
+    <p></p>
+    <div class="top">
+    <h1 style="margin-left: 350px; margin-top: -100px;">Quality</h1>
+    <p style="color: grey; margin-left: 330px">Lorem Ipsum, Lorem Ipsum, lorem ip <br style="margin-left: 100px"> dolor sit amet, consectet</p>
+</div>
+    <div class="there">
+    <h1>Experience</h1>
+    <p style="color: grey; margin-left: -10px">Lorem Ipsum, Lorem , lorem ip <br style="margin-left: 150px"> dolor sit amet, consectet</p>
+</div>
+<div class="happy">
+    <h1>Happy Clients</h1>
+    <p style="color: grey; margin-left: -10px">Lorem Ipsum, Lorem Ipsum, lorem ip <br style="margin-left: 150px"> dolor sit amet, consectet</p>
+</div>
+<div class="support">
+    <h1 style="margin-left: 300px">Support</h1>
+    <p style="margin-left: 280px">Lorem Ipsum, Lorem Ipsum, lorem ip <br style="margin-left: 150px"> dolor sit amet, consectet</p>
+</div>
+</div>
+<div class="text">
+        
+    <center><h1>About<span  class="word"> Us</span></h1></center>
+    <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing<br><span  style="margin-left: -35px;"> elit, sed do eiusmod tempor 
+        incididunt ut labore et<br></span><span  style="margin-left: -35px;">doloremagna aliqua. Ut enim ad minim veniam,</span></p>
+        <p class="para2">Lorem ipsum dolor sit amet, consectetur adipiscing<br><span  style="margin-left: -35px;"> elit, sed do eiusmod tempor 
+            incididunt ut labore et<br></span><span  style="margin-left: -35px;">doloremagna aliqua. Ut enim ad minim veniam,</span></p>
+            <p class="para3">Lorem ipsum dolor sit amet, consectetur adipiscing<br><span  style="margin-left: -35px;"> elit, sed do eiusmod tempor 
+                incididunt ut labore et<br></span><span  style="margin-left: -35px;">doloremagna aliqua. Ut enim ad minim veniam,</span></p>
+</div> 
+<div class="ext">
+    <center><h1>Our<span  class="word"> Services</span></h1></center>
+    <p class="gala">Lorem ipsum dolor sit amet, consectet  adipiscing elit, sed do eiusmod tempor incididunt ut<br><span class="fala">labore et dolore magna aliqua</span> </p>
+    <span class="dala">
+    <div class="container">
+        <div class="card">
+            <img class="i2" src="./icons/our-service.png" height="50px" width="50px" alt="">
+          <h4 class="card-head">Web Design</h4>
+        <p class="wd">Lorem ipsum dolor sit amet,<span class="wd2"><br>consectetur adipiscing elit, sed</span><br> <span class="do">do eiusmod tempo</span></p>
+          <button class="re">Read More</button>
+        </div>
+        <div class="card2">
+            <img class="i3" src="./icons/our-service.png" height="50px" width="50px" alt="">
+          <h4 class="card-head"><span class="head2">Graphic Design</span></h4>
+          <p class="wd">Lorem ipsum dolor sit amet,<span class="wd2"><br>consectetur adipiscing elit, sed</span><br> <span class="do">do eiusmod tempo</span></p>
+          <button class="rea">Read More</button>
+
+        </div>
+        <div class="card3">
+            <img class="i2" src="./icons/our-service.png" height="50px" width="50px" alt="">
+          <h4 class="card-head"><span class="b">Branding</span></h4>
+          <p class="wd">Lorem ipsum dolor sit amet,<span class="wd2"><br>consectetur adipiscing elit, sed</span><br> <span class="do">do eiusmod tempo</span></p>
+          <button class="rea">Read More</button>
+
+        </div>
+        <div class="card4">
+            <img class="i2" src="./icons/our-service.png" height="50px" width="50px" alt="">
+          <h4 class="card-head"><span class="m">Marketing</span></h4>
+          <p class="wd">Lorem ipsum dolor sit amet,<span class="wd2"><br>consectetur adipiscing elit, sed</span><br> <span class="do">do eiusmod tempo</span></p>
+          <button class="rea">Read More</button>
+
+        </div>
+    </span>
+      </div>
+</div>
+
+<div id="heavy">
+    <center><h1 class="he">Our<span  class="woro"> Portfolio</span></h1></center>
+    <p class="gala">Lorem ipsum dolor sit amet, consectet  adipiscing elit, sed do eiusmod tempor incididunt ut<br><span class="fala">labore et dolore magna aliqua</span> </p>
+    
+    <ul class="ola">
+        <li class="walla"><a class="web" href="#home">WEB DESIGN</a></li>
+        <li class="wallahi"><a class="web" href="#news" >GRAPHIC DESIGN</a></li>
+        <li class="wallaki"><a class="web" href="#contact">BRANDING</a></li>
+        <li class="wallasi"><a class="web" href="#about">LOGO</a></li>
+        <li class="wallu"><a class="web" href="#home">MARKETING</a></li>
+        <li class="wallaho"><a class="web" href="#news">ADVERTISEMENT</a></li>
+      </ul>
+    <img class="piccy" src="./footer-pic-1.png" height="200px" width="200px" alt="footer pic 1">
+    <img class="picc" src="./footer-pic-2.png" height="200px" width="200px" alt="footer pic 1">
+    <img class="picc" src="./footer-pic-3.png" height="200px" width="200px" alt="footer pic 1">
+    <img class="team" src="./footer-pic-4.png" height="200px" width="200px" alt="footer pic 1">
+    <img class="picc" src="./footer-pic-5.png" height="200px" width="200px" alt="footer pic 1">
+    <div class="sec">
+        <img class="growth" src="./footer-pic-6.png" height="200px" width="200px" alt="footer pic 1">
+        <img class="brain" src="./footer-pic-7.png" height="200px" width="200px" alt="footer pic 1">
+        <img class="lion" src="./footer-pic-8.png" height="200px" width="200px" alt="footer pic 1">
+        <img class="place" src="./footer-pic-9.png" height="200px" width="200px" alt="footer pic 1">
+        <img class="social" src="./footer-pic-10.png" height="200px" width="200px" alt="footer pic 1">
+    </div>
+
+    </div>
+    <img class="arrow" src="./arrow.png" alt="arrow" width="200px">
+    <img class="arrow2" src="./arrow.png" alt="arrow" width="200px">
+
+    <center><h1 class="way">OUR <span style="color: #688e19">PROCESS</span></h1>
+        <p class="shay">Lorem Ipsum has, lorem Ipsum, lorem Ipsum, lorem Ipsum, lorem Ipsum, Lorem Ipsum,<br> Lorem Ipsum, lorem Ipsum lorem Ipsum, lorem Ipsum, </p>
+    </center>
+    <div class="ha">
+        
+        
+   
+    <canvas class="circ" width="150" height="150">
+    </canvas>
+    </div>
+    <hr class="line">
+    <div class="za">
+            <canvas width="150" height="150">
+            </canvas>
+    </div>
+        
+        <div class="va">
+            <canvas  width="150" height="150">
+            </canvas>
+        </div>
+        <div class="sa">
+            <canvas class="inner"  width="150" height="150">
+            </canvas>
+        </div>
+        <div class="ka">
+            <canvas width="150" height="150">
+            </canvas>
+        </div>
+        <div>
+            <canvas class="xa" width="150" height="150">
+            </canvas>
+        </div>
+
+</div>
+<div>
+    <img class="first" src="1.png" alt="first">
+    <img class="diff" src="diffphone.png" height="50px" width="50px" alt="phone">
+</div>
+<div>
+    <img class="second" src="t.png" alt="second">
+    <img class="consult" src="consult.png" style="margin-left: -80px; margin-top: -225px;" alt="consult">
+</div>
+<div>
+    <img class="third" src="th.png" alt="third">
+    <img class="" src="planning.png" style="position: sticky; margin-left: -80px; margin-top: -270px; width: 90px" alt="consult">
+</div>
+<div>
+    <img class="four" src="4.png" alt="fourth">
+    <img  src="work.png" style="position: sticky; margin-left: -85px; margin-top: -355px; width: 100px" alt="consult">
+</div>
+<div>
+    <img class="five" src="five.png" alt="fifth">
+    <img class="correct" src="correcting.png" style="position: sticky; margin-left: 1005px; margin-top: -430px; width: 100px" alt="consult">
+
+</div>
+<div>
+    <img class="six" src="six.png" alt="sixth">
+    <img class="deliver" src="deliver.png" style="position: sticky; margin-left: 1230px; margin-top: -550px; width: 100px" alt="consult">
+
+</div>
+<div>
+    <h5 style="margin-top: -200px; margin-left: 90px">Request call</h5>
+    <h5 style="margin-top: -30px; margin-left: 330px">Consultation</h5>
+    <h5 style="margin-top: -30px; margin-left: 560px">Planning</h5>
+    <h5 style="margin-top: -30px; margin-left: 750px">Work Process</h5>
+    <h5 style="margin-top: -30px; margin-left: 1000px">Correcting</h5>
+    <h5 style="margin-top: -30px; margin-left: 1250px">Deliver</h5>
+
+
+</div>
+<div style="margin-top: 90px; height: 600px; background-color: whitesmoke">
+    <span><center><h1>PEOPLE <span style="color: #688e19" >ABOUT US</span></h1>
+        <p class="shay">Lorem Ipsum has, lorem Ipsum, lorem Ipsum, lorem Ipsum, lorem Ipsum, Lorem Ipsum,<br> Lorem Ipsum, lorem Ipsum lorem Ipsum, lorem Ipsum, </p>
+    </center></span>
+    <div class = "vertical"></div> 
+    <hr class="horizontal">
+    
+    <img style="margin-left: 250px; margin-top: -250px" src="./prof.png" alt="">
+    
+    <h1 style="margin-left: 450px;margin-top: -230px">John Doe</h1>
+    <p style="margin-left: 430px;">Lorem Ipsum has, lorem Ipsum, lorem<br style="margin-left: 430px;"> <span style="margin-left: -30px;">Ipsum, lorem Ipsum, Lorem Ipsum, ip </span><br style="margin-left: 430px;"> <span style="margin-left: -30px;">Ipsum, lorem Ipsum, lorem Ipsum, </span> </p>
+<img class="only"  src="./prof.png" alt="">
+    <h1 style="margin-left: 450px;margin-top: -150px">John Doe</h1>
+    <p style="margin-left: 430px; ">Lorem Ipsum has, lorem Ipsum, lorem<br style="margin-left: 430px;"> <span style="margin-left: -30px;">Ipsum, lorem Ipsum, Lorem Ipsum, ip </span><br style="margin-left: 430px;"> <span style="margin-left: -30px;">Ipsum, lorem Ipsum, lorem Ipsum, </span> </p>
+    <div>
+    <img style="margin-left: 750px; margin-top: -640px" src="./prof.png" alt="">
+
+    </div>
+    <h1 style="margin-left: 920px;margin-top: -420px">John Doe</h1>
+    <p style="margin-left: 930px;">Lorem Ipsum has, lorem Ipsum, lorem<br style="margin-left: 430px;"> <span style="margin-left: -30px;">Ipsum, lorem Ipsum, Lorem Ipsum, ip </span><br style="margin-left: 430px;"> <span style="margin-left: -30px;">Ipsum, lorem Ipsum, lorem Ipsum, </span> </p>
+    <img style="margin-left: 750px; margin-top: 58px" src="./prof.png" alt="">
+    <h1 style="margin-left: 920px;margin-top: -154px">John Doe</h1>
+    <p style="margin-left: 930px;">Lorem Ipsum has, lorem Ipsum, lorem<br style="margin-left: 430px;"> <span style="margin-left: -30px;">Ipsum, lorem Ipsum, Lorem Ipsum, ip </span><br style="margin-left: 430px;"> <span style="margin-left: -30px;">Ipsum, lorem Ipsum, lorem Ipsum, </span> </p>
+</div>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active" style="margin-top: -20px;     background-color: #ff821b; display: block"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1" style="margin-top: -20px; background-color: #febd19; display: block"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2" style="margin-top: -20px; margin-bottom: 50px; background-color: #febd19; display: block"></li>
+    </ol>
+</div>
+<div id="wrap">
+   <img src="./prog.png" alt="" width="290px" style="position: absolute; margin-left: -400px; margin-top: 5px;">
+   <img src="./progress.png" alt="" width="800px" height="290"style="position: absolute; margin-left: 150px; margin-top: 25px;">
+
+    
+    
+</div>
+
+   <div class="b-skills">
+       <div class="contain">
+        <center><h1 class="long">OUR <span style="color: #688e19" >SKILLS</span></h1></center>
+        <center><p class="skilla"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br>eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></center>
+        
+   </div>
+   <div class="affordo">
+    <center><h1>Affordable Web design Packages</h1></center>
+    <center><p class="greya">Experience the industry's best web design deals at 60% Discount with 100% Money Back Guarantee</p></center>
+<div class="carda">
+    <div class="containerze">
+      <center><h5 style="color: black; font-weight: lighter">Web Basic Premium</h5></center>
+      <hr class="car">
+      <center><h1 class="hehim">$859.00</h1></center>
+      <center><p class="flu"><strike>$2140</strike><span class="sixer">60% OFF</span></p></center>
+      <center><p class="uni">Unlimited Pages Website</p></center>
+      <center><p class="des">1 Design Concept</p></center>
+      <center><p class="de">1 Dedicated Designer</p></center>
+      <center><p class="tu">Turn Around <sub>5</sub> Business Days</p></center>
+      <center><p class="ten">10 Stock Photos</p></center>
+      <center><p class="free">Free On-Page SEO</p></center>
+      <center><p class="fre">Free 1 year Web-Hosting</p></center>
+      <center><strong><p class="cmc">Free CMC Integration</p></strong></center>
+      <center><strong><p class="sat">100% Satisfaction Gauranteed</p></strong></center>
+      <button class="ordera">
+        Order Now
+      </button>
+
+    </div>
+  </div>
+  <div class="cardo">
+    <div class="container">
+      <center><h5 style="color: black; font-weight: lighter">Web Basic Plus</h5></center>
+      <hr class="car">
+      <center><h1 class="hez">$649.00</h1></center>
+      <center><p class="flu"><strike>$2140</strike><span class="sixer">60% OFF</span></p></center>
+
+      <center><p class="un">Unlimited Pages Website</p></center>
+      <center><p class="des">1 Design Concept</p></center>
+      <center><p class="de">1 Dedicated Designer</p></center>
+      <center><p class="tu">Turn Around <sub>5</sub> Business Days</p></center>
+      <center><p class="ten">10 Stock Photos</p></center>
+      <center><p class="free">Free On-Page SEO</p></center>
+      <center><p class="fre">Free 1 year Web-Hosting</p></center>
+      <center><strong><p class="cmc">Free CMC Integration</p></strong></center>
+      <center><strong><p class="sat">100% Satisfaction Gauranteed</p></strong></center>
+      <button class="order">
+        Order Now
+      </button>
+
+    </div>
+  </div>
+  <div class="cardy">
+    <div class="container">
+      <center><h5 style="color: black; font-weight: lighter">Web Basic Premium</h5></center>
+      <hr class="car">
+      <center><h1 class="hez">$499.00</h1></center>
+      <center><p class="flu"><strike>$2140</strike><span class="sixer">60% OFF</span></p></center>
+      <center><p class="un">Unlimited Pages Website</p></center>
+      <center><p class="des">1 Design Concept</p></center>
+      <center><p class="de">1 Dedicated Designer</p></center>
+      <center><p class="tu">Turn Around <sub>5</sub> Business Days</p></center>
+      <center><p class="ten">10 Stock Photos</p></center>
+      <center><p class="free">Free On-Page SEO</p></center>
+      <center><p class="fre">Free 1 year Web-Hosting</p></center>
+      <center><strong><p class="cmc">Free CMC Integration</p></strong></center>
+      <center><strong><p class="sat">100% Satisfaction Gauranteed</p></strong></center>
+      <button class="orders">
+        Order Now
+      </button>
+
+    </div>
+  </div>
+</div>
+   </div>
+   </div>
+   <div class="footera">
+    <center><h1 class="heading">Start Your New Project</h1></center>
+    <div class="input">
+    <input class="inny" value="Your Name" width="100" height="100">
+    <input  class="down" value="Your Email" width="100" 
+    height="100" >
+    <input  class="frown" value="Your Phone" width="100" 
+    height="100" >
+    <button type="button" class="btn btn-warning bu" style="color: black;">Send </button>
+    <p class="lorem">Lorem ipsum dolor sit tempor incididunt ut labore<br> et dolore magna aliqua. </p>
+</div>
+</div>
+  <footer class="footsy">
+      <div class=links>
+          
+    </div>
+    
+  </footer>
+  <div class="my">
+    <center><h1 class="long">OUR <span style="color: #688e19" >CONTACTS</span></h1></center>
+
+    <p class="loremi">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
+         <span class="lala">tempor incididunt ut labore et dolore </p></span>
+         <p><img class="pini" src="./pin.png" alt="" height="20px" width="20px" ><span class="lor">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore</span></p>
+         <span class="numbero">+92 (304) 386-6719</span>
+        <span class="numbers">+92 (317)011-3001</span>
+         <img class="foo"src="./phonewhite.png" alt="" height="20px" width="20px">
+         <p class="jaya">(304) 386-6719</p>
+         <img class="fooa" src="./phonewhite.png" alt="" height="20px" width="20px">
+         <img class="mail" src="./mail.png" alt="mail" height="20px" width="20px">
+        <p class="pa">info@website.com</p>
+         
+</div>
+
+    <img src="./map 2.jpeg" alt="" width="100%" height="400px"></center>
+    <div class="foota">
+        <img class="roma" src="./lana.png" alt="" width="120px" height="120px">
+        <p class="ipsuma">Lorem ipsum dolor sit amet,<br style="margin-left: -25px"> <span style="margin-left: -25px">consectetur adipiscing elit, sed</span><br><span style="margin-left: -25px"> do eiusmod tempor unt ut lab</span><br><span style="margin-left: -25px">ore et dolore magna aliqua. Ut <br></span><span style="margin-left: -25px">im ad minim veniam, quisnos</span></p>
+        <p class="copa">ⓒ Panacloud 2019</p>
+        <h2 class="servica" style="margin-left: 445px;">SERVICES</h2>
+        <ul class="flora">
+       <li><a href="#" class="glora">Lorem ipsum</a></li> 
+       <br>
+       <li class="set"><a href="#" class="clora">Lorem ipsum</a></li> 
+       <br>
+       <li class="fet"><a href="#" class="clora">Lorem ipsum</a></li> 
+       <br>
+       <li class="det"><a href="#" class="clora">Lorem ipsum</a></li> 
+       <br>
+
+       <li class="get"><a href="#" class="clora">Lorem ipsum</a></li> 
+       <br>
+       <li class="let"><a href="#" class="clora">Lorem ipsum</a></li> 
+       <br>
+       
+
+       <div class="vl" width="-20px"></div>
+       <h2 class="use">USEFUL LINKS</h2>
+       <ul class="lora">
+        <li class="nora"><a class="by"  href="#">Lorem ipsum</a></li> 
+        <p></p>
+        <li class="fora"><a class="by"  href="#">Lorem ipsum</a></li> 
+        <p></p>
+        <li class="kora"><a class="by"  href="#">Lorem ipsum</a></li> 
+        <p></p>
+        <li class="fa"><a class="by"  href="#">Lorem ipsum</a></li> 
+        <p></p>
+        <li class="ga"><a class="by"  href="#">Lorem ipsum</a></li> 
+        <p></p>
+        <li class="da"><a class="by"  href="#">Lorem ipsum</a></li> 
+        <p></p>
+        
+    </ul>
+
+    <h2 class="bollow">CONTACTS</h2>
+    <div class="sl" width="-20px"></div>
+    
+    
+    <p></p>
+    <img class="phonew" src="./phonew.png" alt="" width="20" height="20">
+    <p class="after">+92(304) 386-6719</p>
+    <img class="phono" src="./phonew.png" alt="" width="20" height="20">
+    <p class="aftert">+92(301) 011-3001</p>
+    <img class="mailt" src="./mailt.png" alt="" width="20" height="20">
+    <p class="mailtw">info@website.com</p>
+    <div class="jigga">
+        <h2 class="follow">FOLLOW US</h2>
+        <div class="new">
+        <div class="icons-holdero">
+    <a href="#" class="fbook">
+    
+        
+            f
+        </a>
+    </div>
+    <div class="icons-holdera">
+        <a href="#" class="tw">
+        
+            
+                tw
+            </a>
+        </div>
+
+        <div class="icons-holderg">
+            <a href="#" class="g">
+            
+                
+                    g+
+                </a>
+            </div>
+
+            <div class="icons-holderi">
+                <a href="#" class="i">
+            
+                
+                    in
+                </a>
+            </div>
+                <div class="icons-holdert">
+                    <a href="#" class="tube">
+                    
+                        
+                            Tube
+                        </a>
+                    </div>
+</div>
+    </div>
+</header>
+</body>
+</html>

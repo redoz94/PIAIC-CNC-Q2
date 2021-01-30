@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 7 - Ameen Alam</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">
+    <link rel=stylesheet href="./ch7.css">
+</head>
+<body>
+    
+    <h1>Chapter # 7 - Forms</h1>
+    
+    <div style = "width: 1300px;
+    border: 2px solid #858585;
+    padding: 50px;
+    margin: 40px;
+    margin-left: 5px;
+    margin-top: 50px;
+    height: 20px;
+    line-height: 15px;" >
+        <span>
+            <p style="margin-right: -5000px; margin-top: -30px;">Your Details:</p>
+        </span>
+        <div >
+        <p style="  margin-top: -5px;
+        "> Name:<input style="  width: 300px;
+          "></p>
+        <p style="  margin-top: 10px;
+        "> Email:<input style="width: 300px"></p>
+    </div>
+    </div>
+    
+    <div style = "width: 1300px;
+    border: 2px solid #858585;
+    padding: 50px;
+    margin: 10px;
+    margin-left: 5px;
+    margin-top: 20px;
+    height: 300px;">
+        <span>
+
+        <p style="margin-right: -5000px">Your Review:</p>
+        <form action="/action_page.php" style="margin-top: -90px;
+        margin-left: -25px;">
+            <label >How did you hear about us?</label>
+            <select>
+                <option value="Google">Google</option>
+              <option value="Instagram">Instagram</option>
+              <option value="Facebook">Facebook</option>
+              <option value="Twitter">Twitter</option>
+            </select>
+          </form>        </p>
+          <div class="container">
+            <p style="  margin-top: 10px;
+            ">Would you visit us again?</p>
+            <form style="  margin-top: 40px;
+            ">
+              <label class="radio-inline">
+                <input type="radio" name="optradio" checked>Yes
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="optradio">No
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="optradio">Maybe
+              </label>
+            </form>
+          </div><br><br><br>
+          <p style="  margin-top: -30px;
+          ">Comments:</p>
+          <input type="text" size="40" style="height:100px; margin-left: -30px;"><br><br><br>
+          <input type="checkbox" checked="checked" name="subscribe" style="  margin-left: -20px;
+          "> Sign me up for email updates
+    </label><br><br><br>
+          <input type="submit" value="Submit Review" style="position: absolute; margin-top: -20px;  margin-left: -20px;">
+
+            </span>
+    </div>
+</body>
+</html>
