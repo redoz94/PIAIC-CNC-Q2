@@ -918,6 +918,10 @@ skill-item .percent {
 /* Using the data attributes for the animation selectors. */
 /* Base settings for all animated elements */
 
+.long {
+  margin-top: -40px;
+}
+
 .secdiv {
   width: 100%;
   color: green;
@@ -1899,20 +1903,4 @@ a:hover {
   margin-top: 20px;
   position: absolute;
   margin-left: 90px;
-}
-
-.third {
-  margin-top: -455px;
-}
-
-.four {
-  margin-top: -495px;
-}
-
-.five {
-  margin-top: -540px;
-}
-
-.six {
-  margin-top: -640px;
 }
